@@ -7,13 +7,13 @@
 $(call inherit-product, device/realme/realme_trinket/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := realme_trinket
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := lineage_realme_trinket
+PRODUCT_NAME := bliss_realme_trinket
 
 BUILD_FINGERPRINT := "realme/realme_trinket/realme_trinket:10/QKQ1.200209.002/1592886883:user/release-keys"
 
