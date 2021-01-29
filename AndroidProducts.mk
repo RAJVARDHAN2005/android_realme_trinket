@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_realme_trinket.mk
+    $(LOCAL_DIR)/bliss_realme_trinket.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_realme_trinket-user \
-    lineage_realme_trinket-userdebug \
-    lineage_realme_trinket-eng
+    bliss_realme_trinket-user \
+    bliss_realme_trinket-userdebug \
+    bliss_realme_trinket-eng
