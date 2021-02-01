@@ -1,13 +1,12 @@
-#
-# Copyright (C) 2019 The LineageOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
 
 $(call inherit-product, device/realme/realme_trinket/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+DEVICE_MAINTAINER := RAJ2005
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Realme
